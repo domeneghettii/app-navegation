@@ -10,15 +10,15 @@ export default function Tab2() {
     );
 }
 
-
+// Define os estilos utilizados no componente
 const styles = {
     container: {
-        flex: 1,
-        justifyContent: "center", 
-        alignItems: "center", 
-        backgroundColor: "blue", 
+        flex: 1, // Faz a View ocupar todo o espaço disponível
+        justifyContent: "center", // Centraliza o conteúdo verticalmente
+        alignItems: "center", // Centraliza o conteúdo horizontalmente
+        backgroundColor: "purple", // Define a cor de fundo como roxa
     },
     title: {
-        fontSize: 30, 
+        fontSize: 30, // Define o tamanho da fonte como 30
     },
 };

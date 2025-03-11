@@ -16,6 +16,6 @@ const styles = StyleSheet.create({
         flex: 1, // Faz com que a View ocupe todo o espaço disponível
         justifyContent: "center", // Centraliza os filhos verticalmente
         alignItems: "center", // Centraliza os filhos horizontalmente
-        backgroundColor: "purple", // Define a cor de fundo como azul claro
+        backgroundColor: "green", // Define a cor de fundo como azul claro
     },
 });
