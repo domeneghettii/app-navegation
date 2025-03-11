@@ -11,9 +11,6 @@ export default function StackNavigator() {
             <Stack.Screen name="Stack Screen" component={StackScreen} /> 
             <Stack.Screen name="Stack 2" component={Stack2} />
             <Stack.Screen name="Drawer Screen" component={StackScreen} />
-            <Stack.Screen name="Drawer 2" component={Drawer2} />
-            <Stack.Screen name="Tab Screen" component={TabScreen} />
-            <Stack.Screen name="Tab 2" component={Tab2} />
         </Stack.Navigator>
     );
 }

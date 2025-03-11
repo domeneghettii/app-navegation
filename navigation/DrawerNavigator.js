@@ -10,10 +10,6 @@ export default function DrawerNavigator() {
         <Drawer.Navigator initialRouteName="DrawerScreen"> "DrawerScreen"
             <Drawer.Screen name="Drawer Screen" component={DrawerScreen} />
             <Drawer.Screen name="Drawer 2" component={Drawer2} />
-            <Stack.Screen name="Drawer Screen" component={StackScreen} />
-            <Stack.Screen name="Drawer 2" component={Drawer2} />
-            <Stack.Screen name="Tab Screen" component={TabScreen} />
-            <Stack.Screen name="Tab 2" component={Tab2} />
         </Drawer.Navigator>
     );
 }
